@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* GLOBAL */
+h1 {
+    font-size: 40px;
+    color: black;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* HEADER */
+header {
+    padding: 10px 50px 10px 50px;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EBBDE9;
+}
+
+nav {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.inicio {
+    color: white;
+    font-weight: 600;
+}
+
+
+/* BANNER */
+.banner {
+    background-image: url(img/html-código.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    color: white;
+    padding-top: 60px;
+}
+
+
+/* NUESTROS SERVICIOS */
+.box-container {
+    border: solid yellow;
+
+}
+                            
+.box {
+    border: solid yellowgreen;
+    width: 200px;
+    height: 200px;
+}
+
