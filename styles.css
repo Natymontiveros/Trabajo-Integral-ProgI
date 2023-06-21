@@ -7,7 +7,7 @@
 
 /* GLOBAL */
 h1 {
-    font-size: 40px;
+    font-size: 35px;
     color: black;
 }
 
@@ -23,15 +23,16 @@ p {
     font-size: 15px;
 }
 
+/* INDEX */
 /* HEADER */
 header {
     padding: 10px 50px 10px 50px;
     width: 100%;
-    height: 55px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #EBBDE9;
+    background-color: #e98be4;
 }
 
 nav {
@@ -56,7 +57,7 @@ nav a {
 
 /* BANNER */
 .banner {
-    background-image: url(img/html-código.webp);
+    background-image: url(img/prog2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -67,14 +68,148 @@ nav a {
 
 
 /* NUESTROS SERVICIOS */
-.box-container {
-    border: solid yellow;
+main {
+    background-color: beige;
+}
 
+.serv-title h1 {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
+.serv-title h3 {
+    margin-left: 50px;
+}
+
+.box-container1 {
+    margin-left: 150px;
+    width: 1010px;
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
 }
                             
-.box {
-    border: solid yellowgreen;
+.serv-box {
+    border: solid #e98be4;
+    border-radius: 10px;
     width: 200px;
     height: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px #757375;
 }
 
+.titulo-box {
+    display: flex;
+    text-align: center center;
+    margin-bottom: 15px;
+    background-color: #e98be4;
+    height: 70px;
+    color: white;
+}
+
+.titulo-box h2 {
+    width: 130px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.titulo-box i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.serv-box p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+/* NUESTRAS TECNOLOGIAS */
+.tec-title h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tec-title h3 {
+    margin-left: 50px;
+}
+
+.box-container2 {
+    margin-left: 250px;
+    width: 770px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tec-box {
+    border: solid #e98be4;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px #757375;
+}
+
+.tec-box h2 {
+    text-align: center;
+    background-color: #e98be4;
+    height: 70px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.tec-box p {
+    font-size: 18px;
+    margin: 25px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #e98be4;
+    padding: 10px 50px 10px 50px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-boxf {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-foot {
+    font-size: 20px;
+    display: flex;
+}
+
+#copyright {
+    padding: 10px;
+}
+
+.icons-foot i {
+    padding: 10px;
+    margin: 0 20px 0 ;
+}
+
+iframe {
+    margin-top: 20px;
+    width: 1310px;
+    height: 130px;
+}
+
+/* SERVICES */
+/* HEADER */
