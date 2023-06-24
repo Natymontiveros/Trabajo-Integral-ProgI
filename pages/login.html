@@ -19,35 +19,35 @@
             <a href="/index.html"> INICIO </a>
             <a href="/pages/services.html"> SERVICIOS </a>
             <a href="/pages/contact.html"> CONTACTO </a>
-            <a class="blanco" href="#"> SOBRE MI </a>
-            <a href="/pages/login.html"> <i class="fa-solid fa-arrow-right-to-bracket"></i> </a>
+            <a href="/pages/about.html"> SOBRE MI </a>
+            <a class="blanco" href="#"> <i class="fa-solid fa-arrow-right-to-bracket"></i> </a>
         </nav>
     </header>
 
     <main>
-        <!-- SOBRE MI -->
-        <section class="about">
-            <div class="circle"></div>
+        <!-- LOGIN -->
+        <section class="login-form">
+            <div class="login-box">
+                <div class="titles">
+                    <h1> Ingresar </h1>
+                </div>
 
-            <div class="titles info">
-                <h1> Sobre Mi. </h1>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Eos quos, repellat ipsa facilis dolore excepturi sint ut! 
-                    Repudiandae fugiat in dicta non reprehenderit nemo fuga 
-                    possimus obcaecati itaque consequuntur mollitia animi voluptate 
-                    sapiente recusandae necessitatibus dolor praesentium doloremque, 
-                    optio maxime. <br> <br> Libero perferendis praesentium sapiente totam 
-                    consequuntur nostrum, accusamus ratione! Aspernatur magnam vel 
-                    asperiores sit dolorum quidem molestiae corrupti iusto, exercitationem 
-                    error. <br> <br>Cum, consequuntur accusantium blanditiis nesciunt adipisci enim, 
-                    eaque eveniet placeat sint harum quasi voluptates temporibus totam 
-                    est voluptate nostrum facilis officiis laudantium dolorum quod dolores 
-                    maiores voluptatem porro aliquid? Magnam et quam inventore error earum? 
-                    Aliquam illo optio quibusdam. 
-                </p>
+                <form action="/index.html" method="get">
+    
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario" size="28" required="required">
+                    <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" size="28" required="required">
+                    
+                    <div class="btn-form">
+                        <button type="submit"> Enviar </button>
+                    </div>
+
+                    <div class="aqui">
+                        <p> ¿Aún no tienes cuenta? <a class="login-aqui" href="/pages/signup.html"> Regístrate aquí.</a></p>
+                    </div>
+                </form>
             </div>
-
         </section>
+        
     </main>
 
     <footer>
