@@ -7,7 +7,7 @@
 
 /* GLOBAL */
 h1 {
-    font-size: 30px;
+    font-size: 25px;
     color: black;
 }
 
@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 p {
@@ -42,17 +42,17 @@ p {
 header {
     padding: 10px 50px 10px 50px;
     width: 100%;
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e98be4;
+    background-color: #1f7a8c;
 }
 
 .img-logo img {
-    margin-top: 20px;
-    width: 190px;
-    height: 190px;
+    margin-top: 8px;
+    width: 150px;
+    height: 130px;
 }
 
 nav {
@@ -74,7 +74,6 @@ nav a {
     font-weight: 600;
 }
 
-
 /* BANNER */
 .banner {
     background-image: url(img/prog2.jpg);
@@ -86,118 +85,12 @@ nav a {
     padding-top: 60px;
 }
 
-
-/* NUESTROS SERVICIOS */
-main {
-    background-color: white;
-}
-
-.box-container1 {
-    margin-left: 150px;
-    width: 1010px;
-    height: 550px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.serv-box {
-    border: solid #e98be4;
-    border-radius: 10px;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    box-shadow: 10px 10px 10px #757375;
-}
-
-.titulo-box {
-    display: flex;
-    text-align: center center;
-    margin-bottom: 15px;
-    background-color: #e98be4;
-    height: 70px;
-    color: white;
-}
-
-.titulo-box h2 {
-    width: 130px;
-    margin-left: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-}
-
-.titulo-box i {
-    font-size: 30px;
-    margin: 10px;
-}
-
-.serv-box p {
-    font-size: 18px;
-    margin: 10px;
-}
-
-
-/* NUESTRAS TECNOLOGIAS */
-.box-container2 {
-    margin-left: 250px;
-    width: 770px;
-    height: 350px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.tec-box {
-    border: solid #e98be4;
-    border-radius: 10px;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    box-shadow: 10px 10px 10px #757375;
-    color: white;
-}
-
-.frontend {
-    background-image: url(img/react.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.backend {
-    background-image: url(img/nodejs.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.cloud {
-    background-image: url(img/serv.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.tec-box h2 {
-    text-align: center;
-    background-color: #e98be4;
-    /* opacity: .3; */
-    height: 70px;
-    color: white;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-.tec-box p {
-    font-size: 18px;
-    margin: 25px;
-}
-
 /* FOOTER */
 footer {
-    background-color: #e98be4;
+    background-color: #1f7a8c;
     padding: 10px 50px 10px 50px;
     width: 100%;
-    height: 200px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,8 +120,117 @@ footer {
 iframe {
     margin-top: 20px;
     width: 1310px;
-    height: 130px;
+    height: 80px;
 }
+
+
+/* NUESTROS SERVICIOS */
+main {
+    background-color: rgb(230, 230, 230);
+}
+
+.box-container1 {
+    margin-left: 150px;
+    width: 1010px;
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.serv-box {
+    border: solid #044157;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px #757375;
+    background-color: whitesmoke;
+}
+
+.titulo-box {
+    display: flex;
+    text-align: center center;
+    margin-bottom: 15px;
+    background-color: #044157;
+    height: 70px;
+    color: white;
+}
+
+.titulo-box h2 {
+    width: 130px;
+    margin: 10px 0 10px 8px;
+    display: flex;
+}
+
+.pad h2 {
+    padding-top: 10px;
+} 
+
+.titulo-box i {
+    font-size: 30px;
+    margin: 18px 0 0 15px;
+    padding-right: 10px;
+}
+
+.serv-box p {
+    margin: 10px;
+}
+
+
+/* NUESTRAS TECNOLOGIAS */
+.box-container2 {
+    margin-left: 220px;
+    width: 890px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tec-box {
+    border: solid #044157;
+    border-radius: 10px;
+    width: 230px;
+    height: 230px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px #757375;
+    color: white;
+}
+
+.frontend {
+    background-image: url(img/react.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backend {
+    background-image: url(img/nodejs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cloud {
+    background-image: url(img/serv.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tec-box h2 {
+    text-align: center;
+    background-color: rgb(4, 65, 87, .4);
+    height: 70px;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tec-box p {
+    font-size: 18px;
+    margin: 25px;
+}
+
 
 /* SERVICES */
 .blanco {
@@ -236,7 +238,7 @@ iframe {
     font-weight: 600;
 }
 
-/* DESSRROLLO WEB */
+/* DESARROLLO WEB */
 .box-container3 {
     margin-left: 215px;
     width: 920px;
@@ -248,12 +250,16 @@ iframe {
 }
 
 .des-box {
-    border: solid #e98be4;
+    border: solid #044157;
     border-radius: 10px;
     width: 210px;
-    height: 250px;
+    height: 255px;
     margin: 40px;
     box-shadow: 10px 10px 10px #757375;
+}
+
+.des h2{
+    padding-top: 15px;
 }
 
 .des-text p {
@@ -266,11 +272,11 @@ iframe {
 .btn {
     width: 120px;
     height: 30px;
-    background-color: #e98be4;
+    background-color: #1f7a8c;
     text-align: center;
     padding: 5px;
-    margin-left: 35px;
-    margin-top: 10px;
+    margin-left: 43px;
+    margin-top: 15px;
     border-radius: 8px;
 }
 
@@ -282,17 +288,18 @@ iframe {
 
 /* CLOUDING COMPUTING */
 .box-container4 {
-    margin-left: 125px;
+    margin-left: 140px;
     width: 1040px;
     height: 680px;
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .cloud-box {
-    border: solid #e98be4;
+    border: solid #044157;
     border-radius: 10px;
     width: 250px;
     height: 250px;
@@ -302,27 +309,34 @@ iframe {
 
 .cloud-box p {
     font-size: 16px;
-    margin-left: 15px;
-    padding: 5px;
+    padding: 15px;
     margin-top: 20px;
 }
 
 /* CONTACT ME */
 /* FORM */
 .contact-form {
-    padding: 60px;
     display: flex;
     justify-content: space-around;
 }
 
+.title-contact {
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
 .form-box {
-    border: solid #e98be4;
-    width: 350px;
-    height: 555px;
-    padding: 20px;
+    border: solid #044157;
+    width: 330px;
+    height: 550px;
     border-radius: 9px;
     align-items: center;
-    margin-left: 60px
+    margin-left: 190px;
+    padding-left: 8px;
+    box-shadow: 10px 10px 10px #757375;
+    background-color: white;
+    margin-bottom: 30px;
+    /* background-color: rgba(4, 65, 87, .1); */
 }
 
 form {
@@ -333,16 +347,17 @@ form {
 input, textarea {
     margin: 10px 0;
     padding: 10px;
-    background-color: #e98be4;
     border: none;
-    border: solid #e98be4;
+    border: solid #044157;
     border-radius: 8px;
+    box-shadow: 5px 5px 10px #757375;
+    background-color: rgba(4, 65, 87, .1);
 }
 
 button {
     width: 120px;
     height: 30px;
-    background-color: #e98be4;
+    background-color: #1f7a8c;
     text-align: center;
     padding: 5px;
     margin-left: 60px;
@@ -353,13 +368,14 @@ button {
 }
 
 .form-img img {
+    margin-left: 20px;
     width: 600px;
-    height: 600px;
+    height: 560px;
 }
 
 /* ABOUT ME */
 .about {
-    padding: 60px;
+    padding: 40px 60px;
     display: flex;
     justify-content: space-around;
 }
@@ -371,48 +387,48 @@ button {
     background-image: url(img/perf1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 100px;
-    border: solid #e98be4;
+    margin-top: 80px;
+    border: double 5px #044157;
     box-shadow: 10px 10px 10px #757375;
 }
 
 .info {
-    border: solid #e98be4;
-    width: 600px;
-    height: 600px;
+    border: solid #044157;
+    width: 550px;
+    height: 550px;
     box-shadow: 10px 10px 10px #757375;
     border-radius: 10px;
 }
 
 .info h1 {
-    background-color: #e98be4;
-    height: 70px;
+    background-color: rgba(4, 65, 87, .4);
     color: white;
-    padding-bottom: 60px;
+    padding-bottom: 15px;
 }
 
 .info p {
     font-size: 20px;
-    width: 500px;
-    height: 500px;
-    margin-left: 45px;
+    padding: 20px;
 }
 
 /* LOGIN */
 .login-form {
-    padding: 60px;
+    padding: 50px;
     display: flex;
     justify-content: space-around;
 }
 
+.title-login {
+    margin: 10px 0 10px 106px;
+}
+
 .login-box {
-    border: solid #e98be4;
+    border: solid #044157;
     width: 350px;
     height: 330px;
     padding: 20px;
     border-radius: 9px;
     align-items: center;
-    margin-left: 60px
 }
 
 .aqui p {
@@ -421,23 +437,30 @@ button {
 }
 
 .login-aqui {
-    color: #e98be4;
+    color: #044157;
     font-size: 14px;
+}
+
+.btn-login {
+    margin-left: 7px;
+    margin-top: 10px;
 }
 
 /* SIGNUP */
 .signup-form {
-    padding: 60px;
+    padding: 55px;
     display: flex;
     justify-content: space-around;
 }
 
 .signup-box {
-    border: solid #e98be4;
+    border: solid #044157;
     width: 350px;
-    height: 550px;
+    height: 480px;
     padding: 20px;
     border-radius: 9px;
     align-items: center;
     margin-left: 60px
 }
+
+/* ENCUESTA */

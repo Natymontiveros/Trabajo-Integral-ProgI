@@ -5,42 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c1a1d465eb.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="/img/logui.png">
+    <link rel="shortcut icon" href="/img/LOGO LILA.png">
     <link rel="stylesheet" href="/styles.css">
     <title> TechTrek </title>
 </head>
 <body>
     <header>
         <div class="img-logo">
-            <a href="/index.html"><img src="/img/LOGOTIPO.png" alt="TECHTREK" title="TECHTREK"></a>
+            <a href="#"><img src="/img/LOGOTIPO.png" alt="TECHTREK" title="TECHTREK"></a>
         </div>
 
         <nav>
             <a href="/index.html"> INICIO </a>
-            <a href="/pages/services.html"> SERVICIOS </a>
-            <a class="blanco" href="#"> CONTACTO </a>
-            <a href="/pages/about.html"> SOBRE MI </a>
-            <a href="/pages/login.html"> <i class="fa-solid fa-arrow-right-to-bracket"></i> </a>
+            <a href="pages/services.html"> SERVICIOS </a>
+            <a href="pages/contact.html"> CONTACTO </a>
+            <a href="pages/about.html"> SOBRE MI </a>
+            <a href="pages/login.html"> <i class="fa-solid fa-arrow-right-to-bracket"></i> </a>
         </nav>
     </header>
 
     <main>
-        <!-- FORMULARIO -->
+        <!-- ENCUESTA -->
         <div class="titles">
-            <h1> ¿Cómo puedo ayudarte? </h1>
+            <h1> Responde esta encuesta. </h1>
         </div>
 
-        <section class="contact-form">
-            <div class="form-box">
-                <div class="title-contact">
-                    <h1> ¡Contáctame! </h1>
-                </div>
+        <section class="encuesta-form">
+            <div class="encuesta-box">
                 <form action="" method="get">  <!-- AGREGAR un SWEETALERT -->
-    
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" size="28" required="required">
-                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" size="28" required="required">
-                    <input type="text" name="asunto" id="asunto" size="28" placeholder="Asunto" required="required">
-                    <input type="email" name="mail" id="mail" size="28" placeholder="Correo@mail.com" required="required">
+                    
+                    <div>
+                        <label for="">¿Qué opinas del servicio? </label>
+                        <input type="text" name="nombre" id="nombre" size="28">
+                    </div>
+                    
+                    <div>
+                        <label for="">¿Qué opinas del servicio? </label>
+                        <input type="text" name="apellido" id="apellido" size="28">
+                    </div>
+                    
+                    <div>
+                        <label for="">¿Qué opinas del servicio? </label>
+                        <input type="text" name="asunto" id="asunto" size="28">
+                    </div>
+                    
                     <input type="tel" name="tel" id="tel" size="28" placeholder="Numero de teléfono">
                     <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje"></textarea>
     
@@ -49,12 +57,8 @@
                     </div>
                 </form>
             </div>
-    
-            <div class="form-img">
-                <img src="/img/mail.png" alt="contact">
-            </div>
         </section>
-        
+    </main>
     </main>
 
     <footer>
