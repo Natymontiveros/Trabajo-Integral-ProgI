@@ -334,9 +334,8 @@ main {
     margin-left: 190px;
     padding-left: 8px;
     box-shadow: 10px 10px 10px #757375;
-    background-color: white;
     margin-bottom: 30px;
-    /* background-color: rgba(4, 65, 87, .1); */
+    background-color: rgba(4, 65, 87, .1);
 }
 
 form {
@@ -351,7 +350,6 @@ input, textarea {
     border: solid #044157;
     border-radius: 8px;
     box-shadow: 5px 5px 10px #757375;
-    background-color: rgba(4, 65, 87, .1);
 }
 
 button {
@@ -448,7 +446,7 @@ button {
 
 /* SIGNUP */
 .signup-form {
-    padding: 55px;
+    padding: 20px 70px 20px 0;
     display: flex;
     justify-content: space-around;
 }
@@ -462,5 +460,3 @@ button {
     align-items: center;
     margin-left: 60px
 }
-
-/* ENCUESTA */
